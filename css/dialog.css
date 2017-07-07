@@ -1,0 +1,803 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    color: #2c92ff
+}
+
+li {
+    list-style: none
+}
+
+em, i {
+    font-style: normal
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0
+}
+
+.clearfix {
+    display: block;
+    *zoom: 1
+}
+
+.standWid {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto
+}
+
+.standSernav {
+    background-color: #ececec;
+    height: 40px;
+    border-bottom: 1px solid #ddd
+}
+
+.standSernav a {
+    font-size: 14px;
+    color: #444;
+    line-height: 40px;
+    margin: 0 16px;
+    padding: 12px 10px
+}
+
+.standSernav a:hover {
+    color: #2c92ff
+}
+
+.standSernav a.cur {
+    color: #2c92ff;
+    border-bottom: 3px solid #2c92ff;
+    padding: 10px 10px;
+    font-weight: bold
+}
+
+.standSernavSub {
+    background-color: #f6f6f6;
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    color: #444
+}
+
+.standSernavSub a {
+    font-size: 12px;
+    color: #444;
+    line-height: 40px;
+    padding: 0 10px
+}
+
+.standSernavSub a:hover {
+    color: #2c92ff
+}
+
+.standSernavSub a.cur {
+    color: #2c92ff;
+    padding: 8px 10px;
+    font-weight: bold
+}
+
+.standSerList {
+    background-color: #fff;
+    min-height: 500px
+}
+
+.standSerList .standSerList_null {
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    padding-top: 130px
+}
+
+.standSerList .standSerList_null p {
+    padding-top: 30px
+}
+
+.standSerList .standSerList_null .standSerNotice {
+    font-size: 14px;
+    color: #999;
+    padding-top: 12px
+}
+
+.standSerList .standSerList_null .standSerNotice a {
+    color: #2c92ff;
+    text-decoration: underline;
+    padding-right: 6px
+}
+
+.standSerworkinfo {
+    width: 32.3%;
+    display: inline-block;
+    font-size: 12px;
+    color: #ddd;
+    line-height: 20px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    height: 20px;
+    margin-top: 10px
+}
+
+.standSerworkinfo span {
+    color: #444;
+    padding: 0 6px
+}
+
+.standSerworkinfo strong {
+    color: #2c92ff;
+    padding: 0 6px
+}
+
+.workInfo {
+    height: 40px
+}
+
+.last {
+    border: 0
+}
+
+.standSerList_ser {
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    position: relative
+}
+
+.standSerList_ser li {
+    display: inline-block;
+    font-size: 12px;
+    color: #444;
+    line-height: 40px
+}
+
+.standSerList_ser li span {
+    padding-left: 10px
+}
+
+.standSerList_ser li .slect, .standSerList_ser li .inp {
+    height: 26px;
+    width: 160px;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid #ddd
+}
+
+.standSerList_ser li .inp {
+    height: 24px;
+    padding: 0 4px
+}
+
+.standSerList_ser li .standBtn {
+    background-color: #2c92ff;
+    height: 28px;
+    font-size: 12px;
+    color: #fff;
+    border: 0;
+    padding: 0 16px;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.standSerList_sub {
+    height: 50px;
+    padding: 16px 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    line-height: 22px;
+    color: #444
+}
+
+.standSerList_sub li {
+    list-style: none;
+    display: block;
+    float: left;
+    border-right: 1px solid #ddd;
+    padding: 0 16px
+}
+
+.standSerList_sub li a.config {
+    background-color: #fff;
+    color: #444;
+    font-size: 12px;
+    display: block;
+    width: 50px;
+    padding: 4px 0;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 18px
+}
+
+.standSerList_sub li a.config:hover {
+    background-color: #2c92ff;
+    color: #fff;
+    border: 1px solid #2c92ff
+}
+
+.standSerList_sub li p.subtxt {
+    color: #999
+}
+
+.standSerList_sub li span {
+    padding-left: 4px;
+    display: block;
+    float: left;
+    line-height: 14px
+}
+
+.standSerList_sub li.start {
+    padding-left: 0;
+    width: 17%
+}
+
+.standSerList_sub li.two {
+    width: 13%
+}
+
+.standSerList_sub li.last {
+    border: 0;
+    padding-right: 0
+}
+
+.standSerList_sub p.widName {
+    width: 100%;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: inherit
+}
+
+.standSerList_sub p.hyName {
+    width: 100%;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: inherit
+}
+
+.t_news_page {
+    float: left;
+    margin-left: 16px;
+    margin-top: 8px;
+    list-style: none
+}
+
+.t_news_page li {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 15px
+}
+
+.t_news_page li a, .t_news_page li em {
+    color: #999;
+    font-family: "Arial";
+    font-size: 12px
+}
+
+.t_news_page li.cur a {
+    color: #444;
+    font-weight: bold
+}
+
+.standWork {
+    height: 60px
+}
+
+a.standLink {
+    color: #2c92ff;
+    padding-left: 12px
+}
+
+.new_information_title {
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f6f6f6
+}
+
+.new_information_title em {
+    margin-left: 13px;
+    font-size: 14px;
+    color: #444;
+    font-weight: bold
+}
+
+.new_information_list {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: #ddd 1px solid
+}
+
+.new_information_list label {
+    float: left;
+    width: 100%;
+    line-height: 28px;
+    margin-bottom: 8px
+}
+
+.new_information_list label em {
+    float: left;
+    width: 84px;
+    font-size: 12px;
+    color: #444;
+    margin-left: 14px;
+    margin-right: 12px
+}
+
+.new_information_list label select, .new_information_list label input {
+    float: left;
+    border-radius: 2px;
+    padding-left: 8px;
+    border: #ddd 1px solid;
+    color: #444
+}
+
+.new_information_list label select {
+    width: 80.4%;
+    height: 28px;
+    line-height: 28px
+}
+
+.new_information_list label a {
+    float: left;
+    margin-right: 9px
+}
+
+.new_information_list label input {
+    width: 80%;
+    height: 26px;
+    line-height: 26px
+}
+
+.new_information_preview {
+    float: right;
+    width: 88px;
+    height: 22px;
+    line-height: 22px;
+    border: #ddd 1px solid;
+    background: #fff;
+    font-size: 12px;
+    color: #444;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 2px
+}
+
+.new_information_list textarea {
+    width: 100%;
+    height: 88px;
+    padding: 4px;
+    border: #ddd 1px solid;
+    resize: none;
+    border-radius: 2px
+}
+
+.standard_entry {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 98px;
+    margin-bottom: 14px
+}
+
+.new_information_list label .standard_entry em {
+    position: absolute;
+    width: auto;
+    right: .5%;
+    color: #b1b1b1;
+    bottom: 0;
+    margin: 0;
+    color: #999
+}
+
+.standard_entry span {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    font-size: 12px;
+    color: #d71c73;
+    display: none
+}
+
+.new_information_nav {
+    position: relative
+}
+
+.new_information_nav label input {
+    width: 50%
+}
+
+.new_information_portrait {
+    position: relative;
+    float: left;
+    width: 51%;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 2px;
+    border: #ddd 1px solid
+}
+
+.new_information_portrait font {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    margin-left: 8px
+}
+
+.new_information_nav label .new_information_portrait input, .new_information_nav label .new_information_portrait i {
+    float: right;
+    width: 68px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 12px;
+    background: #2c92ff;
+    color: #fff;
+    margin-top: 1px;
+    margin-right: 1px;
+    border: 0
+}
+
+.new_information_nav label .new_information_portrait input {
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    right: 1px
+}
+
+.new_information_nav label .new_information_portrait i {
+    position: absolute;
+    z-index: 2;
+    right: 1px
+}
+
+.standard_preservation {
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #2c92ff;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    font-size: 14px;
+    margin-top: 23px;
+    margin-left: 14px;
+    font-family: "微软雅黑"
+}
+
+.new_information_avatar {
+    position: absolute;
+    right: 124px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    color: #a8a8a8;
+    border: #d3d3d3 1px dashed;
+    border-radius: 43px
+}
+
+.new_information_avatar em {
+    float: left;
+    width: 55px;
+    margin-top: 29px;
+    margin-left: 13px;
+    text-align: center
+}
+
+.new_information_avatar img {
+    width: 78px;
+    height: 78px;
+    border-radius: 43px
+}
+
+.new_service {
+    width: 98%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin: 1%;
+    border: #ddd 1px dashed
+}
+
+.new_service a {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #2c92ff;
+    background: url(../images/new_services.png) no-repeat left;
+    padding-left: 32px
+}
+
+.new_standSerList_ser {
+    border-top: #ddd 1px solid
+}
+
+.order_right_nav {
+    float: left;
+    width: 100%;
+    background-color: #e6e6e6
+}
+
+.order_right_nav ul {
+    float: left;
+    width: 100%
+}
+
+.order_right_nav ul li {
+    float: left;
+    width: 100%;
+    height: 79px;
+    border-bottom: #ddd 1px solid
+}
+
+.order_right_list {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: #fff
+}
+
+.order_sub_menu {
+    float: left;
+    width: 22%;
+    height: 100%
+}
+
+.order_sub_menu em {
+    float: left;
+    width: 75%;
+    color: #444;
+    text-align: left;
+    padding-left: 19px;
+    margin-left: 10%;
+    margin-top: 9px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../images/order_sub_menu.png) no-repeat left 1px
+}
+
+.order_sub_menu i {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    margin-top: 3px;
+    margin-right: 12px
+}
+
+.order_sub_menu i.order_basics, .order_basics {
+    margin-left: 5%
+}
+
+.order_sub_menu font {
+    float: right;
+    width: 1px;
+    height: 35px;
+    border-left: #e8e8e8 1px solid;
+    margin-top: 24px
+}
+
+.order_sub_menu a {
+    float: left;
+    width: 85%;
+    margin-top: 9px;
+    margin-left: 10%;
+    color: #2c92ff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.order_sub_menu a:hover {
+    text-decoration: underline
+}
+
+.order_sub_menu i.order_basics span {
+    float: left
+}
+
+.order_sub_menu a.order_sub_upload {
+    float: left;
+    width: auto;
+    margin: 0;
+    color: #979797
+}
+
+.order_sub_menu em.order_sub_menu_price, .order_sub_menu em.order_carried_out {
+    width: 85%;
+    padding-left: 0;
+    font-size: 12px;
+    background: 0
+}
+
+.order_sub_menu em.order_carried_out {
+    margin-top: 20px;
+    margin-bottom: 7px
+}
+
+.order_language {
+    float: left;
+    width: 92%;
+    margin-left: 5%;
+    margin-top: 17px;
+    margin-bottom: 7px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.order_language img {
+    float: left;
+    margin-top: 3px;
+    margin-left: 3px
+}
+
+.order_language strong {
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #3f3f3f;
+    font-weight: 400
+}
+
+.service_direction span {
+    float: left;
+    width: 60%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #444;
+    font-size: 12px;
+    margin-top: 3px
+}
+
+.order_service_nav li .order_sub_menu_price {
+    width: auto;
+    margin-top: 3px;
+    margin-left: 0
+}
+
+.order_view_details {
+    display: inline-block;
+    float: right;
+    background-color: #fff;
+    color: #444;
+    font-size: 12px;
+    width: 48px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 18px;
+    padding: 6px 0;
+    margin-top: 15px;
+    margin-right: 10px
+}
+
+.order_view_details:hover {
+    background: #2c92ff;
+    border: #2c92ff 1px solid;
+    color: #fff
+}
+
+.order_service_nav ul li.cur .order_right_list {
+    background: #f2f2f2 url(../images/new_closed.png) no-repeat 90%
+}
+
+.order_service_nav ul li.cur .order_right_list .order_view_details {
+    background: #f2f2f2;
+    border: #e2e2e2 1px solid;
+    color: #999
+}
+
+.order_service_nav ul li.cur .order_right_list .order_view_details:hover {
+    color: #999
+}
+
+.standSerNotOpr {
+    margin-top: 50px
+}
+
+.standSerNotOpr a {
+    display: block;
+    font-size: 14px;
+    color: #2c92ff;
+    padding: 6px 60px;
+    border: 1px solid #2c92ff;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 180px
+}
+
+.standSerNotOpr a.curPos, .standSerNotOpr a:hover {
+    background-color: #2c92ff;
+    color: #fff
+}
+
+.standPopWin {
+    width: 340px;
+    height: 316px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -158px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px #eee;
+    -webkit-box-shadow: 2px 2px 2px #eee
+}
+
+.standPopWinHead {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color: #444;
+    padding-left: 20px;
+    position: relative
+}
+
+.standPopWinClose {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/winClose_ico.png) no-repeat 10px 12px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.standPopWinClose:hover {
+    background-position: 10px -17px
+}
+
+.standPopWinBody {
+    padding: 20px
+}
+
+.standPopWinBody p.standPopIco {
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.standPopWinBody p {
+    font-size: 14px;
+    color: #444;
+    line-height: 24px
+}
+
+.standSer {
+    border-top: 1px solid #ddd;
+    padding: 20px
+}
+
+.standSer li {
+    list-style: none
+}
+
+.setWaitTime {
+    height: 190px
+}
+
+.setWaitTimeInp {
+    width: 302px;
+    height: 30px
+}

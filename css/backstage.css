@@ -1,0 +1,375 @@
+body{
+	margin: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.header{
+	height: 60px;
+	background: #242321;
+}
+.headercontainer{
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 60px;
+}
+.headercontainer span{
+	font-size: 14px;
+	color: #cfcfce;
+	float: right;
+}
+.tbank_exit{
+	float: right;
+	height: 30px;
+	width: 60px;
+	color: #8a8a89;
+	border-radius: 20px;
+	margin-top: 15px;
+	border: 1px solid #7f7f7e;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 15px;
+	font-size: 12px;
+}
+.protask{
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	background: #ffffff;
+	display: none;
+}
+.container{
+	background: #f7f7f7;
+	border-bottom: 1px solid #e0e0e0;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.search{
+	height: 120px;
+	background: #f7f7f7;
+	font-size: 14px;
+}
+.searchdiv{
+	padding-top:18px ;
+}
+.searchdiv input{
+	width: 178px;
+	height: 24px;
+	margin-right: 114px;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	font-size: 14px;
+}
+.searchdiv a{
+	cursor: pointer;
+	margin-left: 20px;
+	height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+}
+.searchall{
+	background: #FF852C;
+	color: #ffffff;
+	float: right;
+	border: 1px solid #FF852C;
+	border-radius: 15px;
+}
+.checkstatus{
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+	width: 180px;
+	height: 30px;
+}
+.containertab{
+	background: #FFFFFF;
+	margin-top: 10px;
+}
+.taskList{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	border-collapse:collapse;
+	margin-bottom: 10px;
+}
+.taskList th{
+	color: #999999;
+	height: 40px;
+	line-height: 40px;
+	border-bottom:1px solid #dddddd ;
+}
+.taskList td{
+	height: 40px;
+	line-height: 40px;
+	border-bottom:1px solid #dddddd ;
+}
+.taskList a{
+	color: #FF852C;
+	cursor: pointer;
+}
+.checkall{
+    border: 1px solid #dddddd;
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.receiving_set_choice{
+	position:relative;
+	float:left;
+	height: 28px;
+	margin-left: 3px;
+	line-height:30px;
+	border-radius:2px;
+	border:#dddddd 1px solid;
+	padding-left: 10px;
+}
+.receiving_set_choice img{
+	float:right;
+	margin-top:10px;
+	margin-right:3px;
+}
+.receiving_set_choice dl{
+	position:absolute;
+	left:-1px;
+	top:28px;
+	width:100%;
+	height:50px;
+	background:#fff;
+	border-radius:2px;
+	text-align:left;
+	overflow:hidden;
+	border:#dddddd 1px solid;
+	display:none;
+	z-index:100;
+}
+.receiving_set_choice_show dl{
+	display:block;
+}
+.receiving_set_choice dl dt{
+	float:left;
+	width:90%;
+	height:20px;
+	line-height:20px;
+	font-size:14px;
+	padding-left:5px;
+	cursor:pointer;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.receiving_set_choice dl dt:hover{
+	background:#E6E6E6;
+}
+.receiving_set_choice i{
+	float:left;
+	width:50px;
+	text-align:left;
+	padding-left:5px;
+	font-size:14px;
+	color:#333;
+	margin-left:2px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.receiving_set_manuscript i{
+	width:80px;
+}
+.receiving_set_start{
+	width:168px;
+	background: #FFFFFF;
+}
+.receiving_set_manuscript{
+	width:113px;
+}
+.receiving_set_list{
+	float:left;
+	width:100%;
+}
+.checktotal{
+	font-weight: normal;
+	color: #000000;
+}
+
+.excel{
+	background: #FFFFFF;
+	border: 1px solid #e0e0e0;
+	color: #333333;
+}
+.checkpass{
+	background: #FF852C;
+	color: #ffffff;
+	border: 1px solid #FF852C;
+}
+
+
+.tbank_exit{
+	float: right;
+	height: 30px;
+	width: 60px;
+	color: #8a8a89;
+	border-radius: 20px;
+	margin-top: 15px;
+	border: 1px solid #7f7f7e;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 15px;
+	font-size: 12px;
+}
+.protask{
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	background: #ffffff;
+	display: none;
+}
+.containers{
+	background: #ffffff;
+	margin-top: 10px;
+}
+.detail{
+	width: 1000px;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0px;
+}
+.detail li{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.detail li span{
+	float: left;
+}
+.dename{
+	color: #8c8c8c;
+	width: 85px;
+	text-align: right;
+}
+.decontent{
+	color: #333333;
+	width: 180px;
+	margin-left: 20px;
+}
+.demore{
+	width: 260px;
+}
+.de2more{
+	width: 240px;
+}
+.check{
+	color: #2c80ff;
+}
+.money{
+	color: #ff852c;
+}
+.divbottom{
+	width: 420px;
+	margin: 40px auto;
+}
+.divbottom a{
+	width: 120px;
+	height: 35px;
+	float: left;
+	border-radius: 20px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 10px;
+}
+.back{
+	background: #FFFFFF;
+	border: 1px solid #e0e0e0;
+	color: #333333;
+}
+.checkfail{
+	background: #FFFFFF;
+	border: 1px solid #e0e0e0;
+	color: #333333;
+}
+.mask{
+	background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */
+	background-color:rgba(0,0,0,0.2); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.pubup{
+	width: 450px;
+	height: 280px;
+	border-radius: 5px;
+	background: #ffffff;
+	margin: auto;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pubbar{
+	background: #f6f6f6;
+	height: 50px;
+}
+.pubbar span{
+	font-size: 18px;
+	line-height: 50px;
+	margin-left: 25px;
+	color: #333333;
+}
+.close_ico{
+	float: right;
+	margin-right: 17px;
+	margin-top: 20px;
+}
+.pubcontent{
+	width: 360px;
+	height: 105px;
+	border-radius: 2px;
+	border: 1px solid #cccccc;
+	margin-left: 35px;
+	margin-top: 28px;
+	font-size: 14px;
+	padding: 10px;
+}
+.pubbottom{
+	width: 200px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.pubbottom a{
+	height: 35px;
+	width: 80px;
+	font-size: 14px;
+	border-radius: 20px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.pubsubmit{
+	background: #ff852c;
+	color: #FFFFFF;
+	border: 1px solid #ff852c;
+}
+.pubrect{
+	background: #FFFFFF;
+	color: #999999;
+	border: 1px solid #e0e0e0;
+}
